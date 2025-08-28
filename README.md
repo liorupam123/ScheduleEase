@@ -34,11 +34,8 @@ in your browser.
 🔹 User authentication for multiple accounts.
 
 
-👨‍💻 Author
-Rupam Pakhira
-M.Tech, Computer Science & Engineering
-Indian Institute of Technology, Kharagpur
 
+👨‍💻 Author
 Rupam Pakhira
 M.Tech, Computer Science & Engineering
 Indian Institute of Technology, Kharagpur
