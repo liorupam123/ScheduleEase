@@ -1,12 +1,44 @@
-# React + Vite
+📅 SchedulEase
+SchedulEase is a smart task scheduling and optimization tool that helps users organize their tasks efficiently. It implements Greedy Interval Scheduling to maximize completed tasks and integrates a clean frontend for seamless usage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+⚡ Optimal Task Scheduling – Uses Greedy Interval Scheduling to maximize the number of non-overlapping tasks.
+📊 Task Management UI – Add, edit, and delete tasks with a modern and responsive interface.
+🕒 Automatic Conflict Resolution – Detects overlapping tasks and schedules only the most optimal ones.
+🎯 User-Friendly Experience – Built with React + Vite for smooth performance.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: React + Vite + TailwindCSS
+Language: JavaScript
+Algorithm: Greedy Interval Scheduling (extendable to Weighted Interval Scheduling with DP)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/SchedulEase.git
+cd SchedulEase
 
-## Expanding the ESLint configuration
+2. Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Run locally
+npm run dev
+
+
+Now open http://localhost:5173
+in your browser.
+
+📌 Future Improvements
+🔹 Weighted Interval Scheduling (Dynamic Programming) for priority-based optimization.
+🔹 Google Calendar API integration for exporting optimized schedules.
+🔹 Visualization of scheduling (DP tables & intervals).
+🔹 User authentication for multiple accounts.
+
+
+👨‍💻 Author
+Rupam Pakhira
+M.Tech, Computer Science & Engineering
+Indian Institute of Technology, Kharagpur
+
+Rupam Pakhira
+M.Tech, Computer Science & Engineering
+Indian Institute of Technology, Kharagpur
